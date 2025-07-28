@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo da página */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #faf3e0;
+    color: #333;
+}
+
+/* Container centralizado */
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #f4a261;
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+    border-bottom: 2px solid #e76f51;
+}
+
+header h1 {
+    font-size: 3em;
+    letter-spacing: 2px;
+}
+
+header p {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+/* Seção História */
+#historia {
+    background-color: #e9c46a;
+    padding: 40px 0;
+    text-align: center;
+}
+
+#historia h2 {
+    font-size: 2.5em;
+    color: #2a9d8f;
+    margin-bottom: 20px;
+}
+
+#historia p {
+    font-size: 1.3em;
+    color: #333;
+    line-height: 1.6;
+    margin-top: 20px;
+}
+
+/* Seção Cardápio */
+#cardapio {
+    background-color: #fff;
+    padding: 50px 0;
+}
+
+#cardapio h2 {
+    text-align: center;
+    font-size: 2.5em;
+    color: #f4a261;
+    margin-bottom: 30px;
+}
+
+/* Itens do cardápio */
+.cardapio-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+    border: 2px solid #f4a261;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    padding: 20px;
+}
+
+.cardapio-item img {
+    width: 250px;
+    height: 250px;
+    border-radius: 15px;
+    margin-right: 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.cardapio-item .info {
+    flex-grow: 1;
+}
+
+.cardapio-item h3 {
+    font-size: 2em;
+    color: #2a9d8f;
+}
+
+.cardapio-item p {
+    font-size: 1.2em;
+    color: #333;
+    line-height: 1.6;
+    margin-top: 10px;
+}
+
+.cardapio-item .preco {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #f4a261;
+    margin-top: 20px;
+}
+
+/* Rodapé */
+footer {
+    background-color: #f4a261;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 1.1em;
+    margin-top: 50px;
+}
+
+footer p {
+    margin-top: 10px;
+}
